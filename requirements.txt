@@ -33,18 +33,16 @@ langchain-text-splitters==0.3.2
 python-dotenv>=1.0.1            # Load API keys from .env file
 pydantic>=2.9.2                 # Data validation (used internally by LangChain too)
 
-# ---------- API / Backend (optional, if serving RAG as an app) ----------
-fastapi>=0.115.5
-uvicorn>=0.32.0
 
 # ---------- Frontend / UI (optional) ----------
 streamlit>=1.40.1               # Quick UI for RAG demo/chat interface
+requests>=2.32.3                # HTTP client for page fetching
+beautifulsoup4>=4.14.3          # HTML parsing for page fetching
 
 # ---------- Utilities ----------
 numpy>=1.26.4
 pandas>=2.2.3
 tqdm>=4.67.0                    # Progress bars for indexing large corpora
-requests>=2.32.3
 
 # ---------- Logging / Tracing (optional but recommended) ----------
 langsmith>=0.1.147              # Trace and debug LangChain/LangGraph pipelines
