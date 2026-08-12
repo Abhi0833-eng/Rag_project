@@ -32,6 +32,27 @@ MISTRAL_API_KEY=your_mistral_api_key
 
 If `MISTRAL_API_KEY` is not set, the app will still fetch and extract text, but the summarization feature will be disabled.
 
+## Advanced Streamlit settings
+
+This project includes a `.streamlit/config.toml` file with:
+
+- `headless = true`
+- `enableCORS = false`
+- `port = 8501`
+- custom theme colors
+
+## Deployment notes
+
+The app is ready for Streamlit Cloud deployment from:
+
+- Repository: `Abhi0833-eng/Rag_project`
+- Branch: `main`
+- App path: `main.py`
+
+Expected Streamlit Cloud URL:
+
+- `https://share.streamlit.io/Abhi0833-eng/Rag_project/main/main.py`
+
 ## GitHub
 
 - Repository: https://github.com/Abhi0833-eng/Rag_project
