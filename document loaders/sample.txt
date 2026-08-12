@@ -1,0 +1,5 @@
+RAG means Retrieval-Augmented Generation.
+It helps a large language model answer questions using your own documents.
+In a RAG pipeline, we first load the file, extract text, split it into chunks, create embeddings, and save them in a vector store.
+Then the model can search the most relevant chunks before generating a final answer.
+This project is about building that pipeline with LangChain and Mistral AI.
